@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Local Library</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <p id ="kesk">Text</p>
+  <button onclick="multi()" class="btn btn-primary">Update</button>
+  <script>
+    function multi(){
+      var p = document.getElementById("kesk");
+      p.innerText = p.innerText + document.cookie;
+    }
+  </script>
+</body>
+</html>
