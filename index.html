@@ -44,7 +44,13 @@
       <label for="inp_1">Введите сообщение: </label>
          <input type="text" class="form-control" id="inp_2">
     </div>
-    <button onclick=""  class="btn btn-primary" >Enter</button>
+    <button onclick="multi()"  class="btn btn-primary" >Enter</button>
+    <script>
+    function multi(){
+      document.cookie = document.getElementById('inp_1').value;
+    }
+    </script>
+
     <div class="dropdown-child">
       <ul class="sidebar-nav">
           <li><a href="#">дом жорика</a></li>
